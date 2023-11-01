@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://st5.depositphotos.com/4252087/64837/v/450/depositphotos_648379846-stock-illustration-badminton-racket-with-white-badminton.jpg");
+  color: LightPink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#scoreA, #scoreB {
+  font-weight: bold;
+}
+
+#winner {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#reset {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: #c9302c;
+}
